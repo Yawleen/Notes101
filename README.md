@@ -6,10 +6,10 @@ Une **application de notes en ligne** développée avec **React.js** et **Tailwi
 
 ## 🎯 **Fonctionnalités principales**
 
-✅ Création de notes 
-✅ Consultation des notes existantes 
-✅ Modification des notes 
-✅ Suppression des notes 
+✅ Création de notes  
+✅ Consultation des notes existantes  
+✅ Modification des notes  
+✅ Suppression des notes  
 
 ---
 
