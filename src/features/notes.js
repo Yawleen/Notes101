@@ -33,7 +33,7 @@ export const notes = createSlice({
 
 export function getNotesList(action) {
   return function (dispatch, getState) {
-    fetch("/data/notes.json")
+    fetch("/site-portfolio/projets/projets-react/Notes101/data/notes.json")
       .then((data) => data.json())
       .then((data) => dispatch(getNotes(data.notes)));
   };
