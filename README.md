@@ -1,6 +1,6 @@
 # 🚀 Application de notes
 
-Une **application de notes en ligne** développée avec **React.js** et **TailwindCSS** qui permet de gérer facilement des notes. Vous pouvez créer, lire, modifier et supprimer des notes. L'application offre une interface utilisateur simple et intuitive.
+Une **application de notes en ligne** développée avec **React.js** et **TailwindCSS** qui permet de gérer facilement des notes. 
 
 ---
 
