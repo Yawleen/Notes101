@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import Sidebar from "./components/Sidebar"
 import SideNotes from "./components/SideNotes"
 import { useDispatch } from "react-redux";
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="flex flex-col sm:flex-row flex min-h-screen bg-emerald-800 min-w-[320px]">
-      <BrowserRouter>
+      <Router>
         <Sidebar />
         <SideNotes />
 
@@ -28,7 +28,7 @@ function App() {
           <Route path="/create" element={<NoteForm />} />
           <Route path="/edit/:id" element={<NoteForm />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }
